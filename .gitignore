@@ -3,3 +3,12 @@ builddir/
 # Ignore meson subproject, but not .wrap files
 subprojects/
 !subprojects/*.wrap
+!subprojects/*.qbs
+
+build*
+packages/*
+
+*.qbs.user*
+*.autosave
+qgit_*
+.project
